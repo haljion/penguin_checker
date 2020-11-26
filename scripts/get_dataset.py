@@ -31,7 +31,7 @@ max = 2000
 
 for dir, id in classes.items():
     print(dir)
-    dir = os.path.join("C:\\workspace_app\\bird_classification\\img", dir)
+    dir = os.path.join("C:\\workspace_app\\penguin_checker\\img", dir)
 
     os.makedirs(dir, exist_ok=True)
     urls = download("http://www.image-net.org/api/text/imagenet.synset.geturls?wnid=" + id, decode=True).split()
