@@ -15,7 +15,6 @@
 - Pillow
 - virtualenv
 - Flask
-- Vue.js
 - and more...
 
 ## 機械学習
